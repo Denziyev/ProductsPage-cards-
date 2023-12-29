@@ -1,8 +1,18 @@
 body {
     background: #F3F3F3;
 
+    .generaltitle {
+        font-family: Montserrat;
+        font-size: 60px;
+        font-weight: 600;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 70px;
+        margin-top: 80px;
+    }
+
     #products {
-        padding: 100px 70px;
+        padding: 30px 70px 100px 70px;
         display: flex;
         gap: 30px;
         flex-wrap: wrap;
@@ -18,7 +28,7 @@ body {
 
             .generalicon {
                 width: 114px;
-       
+
 
                 img {
                     width: 100%;
@@ -28,7 +38,7 @@ body {
 
             .content {
                 width: 100%;
-      
+
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
@@ -90,12 +100,13 @@ body {
                         display: flex;
                         gap: 16px;
                         margin: 13px 0;
+
                         img {
                             width: 17px;
                             height: 17px;
                         }
 
-                       
+
                     }
 
                     .price {
@@ -138,7 +149,7 @@ body {
 
                     }
 
-                    a{
+                    a {
                         display: flex;
                         width: 100%;
                         height: 55px;
@@ -149,11 +160,12 @@ body {
                         cursor: pointer;
                     }
 
-                    .firstBtn{
-                         background-color: black;
-                         img{
+                    .firstBtn {
+                        background-color: black;
+
+                        img {
                             height: 20px;
-                         }
+                        }
                     }
                 }
             }
