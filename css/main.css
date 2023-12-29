@@ -65,7 +65,7 @@ body {
   background: #F3F3F3;
 }
 body #products {
-  padding: 100px 150px;
+  padding: 100px 70px;
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
@@ -75,13 +75,12 @@ body #products .watch {
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
   padding: 15px 40px 30px;
 }
 body #products .watch .generalicon {
-  width: 184px;
-  height: 50px;
+  width: 114px;
 }
 body #products .watch .generalicon img {
   width: 100%;
@@ -90,7 +89,6 @@ body #products .watch .generalicon img {
 }
 body #products .watch .content {
   width: 100%;
-  background-color: red;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -110,12 +108,89 @@ body #products .watch .content .sideimages img {
      object-fit: contain;
 }
 body #products .watch .content .mainimage {
-  width: 240px;
-  height: 360px;
+  width: 340px;
+  height: 100%;
 }
 body #products .watch .content .mainimage img {
   width: 100%;
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+body #products .watch .content .info {
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+}
+body #products .watch .content .info .brand {
+  font-family: Josefin Sans;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body #products .watch .content .info .Title {
+  font-family: Red Rose;
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body #products .watch .content .info .rating {
+  display: flex;
+  gap: 16px;
+  margin: 13px 0;
+}
+body #products .watch .content .info .rating img {
+  width: 17px;
+  height: 17px;
+}
+body #products .watch .content .info .price {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+body #products .watch .content .info .price p:nth-child(1) {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body #products .watch .content .info .price p:nth-child(2) {
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body #products .watch .content .info .about {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 15px 0;
+}
+body #products .watch .content .info a {
+  display: flex;
+  width: 100%;
+  height: 55px;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+body #products .watch .content .info .firstBtn {
+  background-color: black;
+}
+body #products .watch .content .info .firstBtn img {
+  height: 20px;
 }
